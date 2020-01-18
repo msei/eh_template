@@ -62,10 +62,5 @@ In the directory *src* there is a main.cpp file prefilled with some expample cod
 Select *Command Palette* from the *View* menu and select platformio: build or simply or hit the *Ctrl+Shift+p* hotkey. The dependencies will be pulled from their respective sources and the project will be built. If you have made changes to the platformio.ini file, run the PlatformIO: clean task befor building the project.
 To upload the binary to the energy harvester, connect the board via your ftdi cable. Then hit PlatformIO: Upload from the Command Palette or *Ctrl+Alt+u*. The binary will be uploaded into the energy harvester board and the board will be reset.
 
-## Todo
-* ~~Put in the correct pinmap for the rfm95~~
-* Read VCC on A0 and adapt sleep cycle
-* Enable/disable functions for Vcc on the Grove sockets
-
 ## Legal
 The files in this repo are licensed under the terms in the attached LiCENSE.txt file unless noted otherwise
