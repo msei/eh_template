@@ -14,6 +14,8 @@ $ git clone https://github.com/msei/eh_template
 or in vsCode use the hotkey
 Ctrl+Shift+p --> Git: clone --> https://github.com/msei/eh_template.git
 
+Since this repo is also a github template, you can also start your own project by  clicking [Use this template](https://github.com/msei/eh_template/generate) or the repsective button.
+
 ## Configuration
 Open the cloned directory in your IDE. In vsCode it should be detected as a platformIO project.
 To get an overview of what is already there, take a look at the platformio.ini. This is the central configuration file for your project. The hardware used, build tools, libraries will be declared.
@@ -64,3 +66,5 @@ To upload the binary to the energy harvester, connect the board via your ftdi ca
 
 ## Legal
 The files in this repo are licensed under the terms in the attached LiCENSE.txt file unless noted otherwise
+
+## Todos can be found in [Projects](https://github.com/msei/eh_template/projects/1)
