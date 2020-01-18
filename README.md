@@ -6,13 +6,13 @@ It serves as a starting point for the board, its AVRmega 328pb and the RFM95 Mod
 **Warning** I take no responsibility for this code and possible damages from it. Please verify for yourself if it does what you expect. Also I have not had access to the hardware yet though this might change soon. If you find bugs, do not keep them to yourself. Please raise an issue and send a pull request if you find some way to improve things.
 
 ## Prerequisits
-This template is built on [platformIO](https://platformio.org/). So I suggest you install it on an [IDE that supports it](https://platformio.org/platformio-ide) to get code completion and other nice features.
+This template is built on [platformIO](https://platformio.org/). So I suggest you install it on an [IDE that supports it](https://platformio.org/platformio-ide) to get code completion and some other nice features.
 Then use git or the version control feature of vsCode to clone the template repository from github.
 ```sh
 $ git clone https://github.com/msei/eh_template
 ```
 or in vsCode use the hotkey
-Ctrl+Shift+p --> Git: clone --> https://github.com/msei/eh_template
+Ctrl+Shift+p --> Git: clone --> https://github.com/msei/eh_template.git
 
 ## Configuration
 Open the cloned directory in your IDE. In vsCode it should be detected as a platformIO project.
