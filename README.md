@@ -67,3 +67,5 @@ To upload the binary to the energy harvester, connect the board via your ftdi ca
 * Read VCC on A0 and adapt sleep cycle
 * Enable/disable functions for Vcc on the Grove sockets
 
+## Legal
+The files in this repo are licensed under the terms in the attached LiCENSE.txt file unless noted otherwise
