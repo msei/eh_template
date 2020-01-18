@@ -61,6 +61,6 @@ Select *Command Palette* from the *View* menu and select platformio: build or si
 To upload the binary to the energy harvester, connect the board via your ftdi cable. Then hit PlatformIO: Upload from the Command Palette or *Ctrl+Alt+u*. The binary will be uploaded into the energy harvester board and the board will be reset.
 
 ## Todo
-* Put in the correct pinmap for the rfm95
+* ~~Put in the correct pinmap for the rfm95~~
 * Read VCC on A0 and adapt sleep cycle
 * Enable/disable functions for Vcc on the Grove sockets
