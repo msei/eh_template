@@ -36,6 +36,10 @@
 #include <hal/hal.h>
 #include <SPI.h>
 
+#define ENVCCI2C1 = 4
+#define ENVCCI2C2 = 5
+#define ENVCCAN = 6
+
 //
 // For normal use, we require that you edit the sketch to replace FILLMEIN
 // with values assigned by the TTN console. However, for regression tests,
@@ -74,12 +78,13 @@ static osjob_t sendjob;
 // cycle limitations).
 const unsigned TX_INTERVAL = 60;
 
+
 // Pin mapping
 const lmic_pinmap lmic_pins = {
-    .nss = 6,
+    .nss = 10,
     .rxtx = LMIC_UNUSED_PIN,
-    .rst = 5,
-    .dio = {2, 3, 4},
+    .rst = 9,
+    .dio = {2, 7, 8},
 };
 
 void printHex2(unsigned v) {
